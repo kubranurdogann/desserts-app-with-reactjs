@@ -1,0 +1,235 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(255, 238, 230);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.title {
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.ib {
+  position: relative;
+}
+.text-grey {
+  color: #a39490;
+}
+img {
+  width: 100%;
+}
+.product-title {
+  text-align: start;
+  padding: 15px;
+}
+.add-to-card {
+  padding: 10px 15px;
+  font-size: 12px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid darkred;
+  color: black;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2),
+    0 6px 20px 0 rgba(95, 95, 95, 0.19);
+}
+
+.add-to-card i {
+  color: darkred;
+}
+.product img {
+  border-radius: 20px;
+}
+
+.product-title .price {
+  color: darkred;
+}
+
+.card-area {
+  min-height: 200px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(66, 66, 66, 0.2),
+    0 6px 20px 0 rgba(95, 95, 95, 0.19);
+}
+
+.card-title {
+  color: darkred;
+  letter-spacing: 1px;
+}
+
+.card-area .empty-cart-icon {
+  width: fit-content;
+  padding: 10px 0;
+}
+
+.card-area span {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.add-to-card:hover {
+  background-color: darkred;
+  color: #fff;
+  box-shadow: none;
+}
+
+.add-to-card .hover-icon {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.add-to-card .hover-icon:hover {
+  background-color: #fff;
+  color: darkred;
+}
+
+.card-area li {
+  list-style: none;
+  padding: 10px 0;
+}
+.card-area .product-name {
+  font-size: 15px;
+  text-align: start;
+  margin-bottom: 0px;
+}
+.card-area .product-detail {
+  display: block;
+  text-align: start;
+  color: darkred;
+}
+
+.order-total {
+  color: darkred;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-area .total-price {
+  font-size: 21px;
+  margin-top: -5px;
+  color: #000;
+}
+
+.card-area .carbon {
+  margin: 10px;
+  padding: 10px;
+  font-size: 12px;
+  background-color: rgb(255, 238, 230);
+  border-radius: 5px;
+}
+.card-area .carbon img {
+  width: 18px;
+}
+
+.classic-button {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  background-color: darkred;
+  color: rgb(255, 238, 230);
+  border-radius: 20px;
+}
+
+.modal-content {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+.modal-content i {
+  font-size: 25px;
+  color: rgb(0, 182, 0);
+}
+
+.modal-content span {
+  color: grey;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.modal-content .product-img img {
+  max-width: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.modal-content .products {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 238, 230);
+  width: 100%;
+  padding: 15px;
+}
+
+.modal-content .product-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-content .quantity {
+  color: darkred;
+}
+
+.modal-content .product-name {
+  color: #000;
+  font-weight: 600;
+}
+
+.modal-content .price {
+  color: #000;
+  font-size: 15px;
+}
