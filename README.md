@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# 🍰 Dessert Shop - E-commerce Application
+#### Welcome to the **Dessert Shop** project! This is a modern e-commerce web application where users can browse and purchase delicious desserts. The project is built using **React, TypeScript, and Vite**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### ***🚀 Features***
+#### - 🛒 Add to cart functionality with quantity control (+/-)
+#### - 📱 Responsive design with dynamic image selection based on screen size
+#### - 💳 Secure checkout system (to be implemented)
+#### - 🔥 Hover effects and interactive UI
+#### - ⚡ Optimized performance with Vite
 
-Currently, two official plugins are available:
+### ***🖥️ Technologies Used***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js** (with TypeScript)
+- **Vite** (for fast development)
+- **Bootstrap** (for responsive layout)
+- **FontAwesome** (for icons)
+- **CSS Media Queries** (for adaptive images)
 
-## Expanding the ESLint configuration
+### ***📷 Dynamic Image Handling***
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The application displays different product images based on screen size using:
+- `srcSet` for automatic image selection
+- CSS media queries for responsiveness
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![Design preview for the Interactive card details form coding challenge](./design/desktop-design.jpg)
+![Design preview for the Interactive card details form coding challenge](./design/complete-state-desktop.jpg)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+to clone the repository : git clone https://github.com/yourusername/dessert-shop.git
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
