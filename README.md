@@ -23,8 +23,11 @@ The application displays different product images based on screen size using:
 - CSS media queries for responsiveness
 
 
-![Design preview for the Interactive card details form coding challenge](./design/desktop-design.jpg)
-![Design preview for the Interactive card details form coding challenge](./design/complete-state-desktop.jpg)
+![Design preview for my app](https://github.com/kubranurdogann/desserts-app-with-reactjs/blob/main/assets/images/desktop-design-empty.jpg)
+![Design preview for my app](https://github.com/kubranurdogann/desserts-app-with-reactjs/blob/main/assets/images/desktop-design-selected.jpg)
+![Design preview for my app](https://github.com/kubranurdogann/desserts-app-with-reactjs/blob/main/assets/images/desktop-design-order-confirmation.jpg)
+
+![Design preview for my app](https://github.com/kubranurdogann/desserts-app-with-reactjs/blob/main/assets/images/mobile-design-selected.jpg)
 
 to clone the repository : git clone https://github.com/yourusername/dessert-shop.git
 
